@@ -31,7 +31,17 @@ export default function App(){
         }
       }>
       <h1>{arzish}</h1>
-      <button onClick={handaling}>Change</button>
+      <button
+      style={
+        {
+          backgroundColor: "blueviolet",
+          color: "white",
+          border: "none",
+          borderRadius: "7px",
+          padding: "5px 10px"
+        }
+      }
+      onClick={handaling}>Change</button>
       </div>
       <div style={
         {
@@ -41,7 +51,18 @@ export default function App(){
         }
       }>
         <h1>{value.current}</h1>
-        <button onClick={clicked}>Changing</button>
+        <button
+        style={
+          {
+            backgroundColor: "blue",
+            color: "white",
+            borderRadius: "6px",
+            border: "none",
+            padding: "7px 10px"
+          }
+        }
+        
+        onClick={clicked}>Changing</button>
       </div>
     </div>
    )
